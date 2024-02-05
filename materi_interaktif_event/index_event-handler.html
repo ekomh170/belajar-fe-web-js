@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Latihan Javascript (JS) - Interaktif Dengan Event - Handler</title>
+    </head>
+
+    <style>
+        .contents {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid black;
+            padding: 15px;
+        }
+
+        #generateButton {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            ;
+        }
+    </style>
+
+    <body onload="welcome()">
+        <h1>Belajar JS - Interaktif Dengan Event</h1>
+        <button onClick="alert('Halo! Apa Kabar')">
+            Tekan Aku
+        </button>
+
+        <div class="contents" align="center" hidden>
+            <button id="incrementButton" onclick="increment()">Tekan Aku :)</button>
+            <h3>Kamu sudah menekan tombol di atas sebanyak <span id="count">0</span></h3>
+        </div>
+
+    </body>
+    <script src="latihan-event-handler-js.js"></script>
+
+</html>
