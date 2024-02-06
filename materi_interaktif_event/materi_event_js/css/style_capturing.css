@@ -1,0 +1,28 @@
+/* Styling untuk elemen LANGIT */
+#langit {
+    background-color: #cceeff; /* Warna latar belakang */
+    padding: 20px; /* Padding */
+    margin-bottom: 20px; /* Margin bawah */
+  }
+  
+  /* Styling untuk elemen LUAR */
+  #luar {
+    background-color: #99ccff; /* Warna latar belakang */
+    padding: 20px; /* Padding */
+    margin-bottom: 20px; /* Margin bawah */
+  }
+  
+  /* Styling untuk elemen TENGAH */
+  #tengah {
+    background-color: #66a3ff; /* Warna latar belakang */
+    padding: 20px; /* Padding */
+    margin-bottom: 20px; /* Margin bawah */
+  }
+  
+  /* Styling untuk elemen DALAM */
+  #dalam {
+    background-color: #3385ff; /* Warna latar belakang */
+    padding: 20px; /* Padding */
+    margin-bottom: 20px; /* Margin bawah */
+  }
+  

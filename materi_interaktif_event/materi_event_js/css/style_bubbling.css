@@ -1,0 +1,7 @@
+/* Styling untuk elemen LANGIT */
+div {
+  /* background-color: #cceeff; Warna latar belakang */
+  border: 10px solid #cceeff; /* Warna latar belakang */
+  padding: 20px; /* Padding */
+  margin-bottom: 20px; /* Margin bawah */
+}
