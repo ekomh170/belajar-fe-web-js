@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Menambahkan event listener untuk menangani kejadian saat nilai pada elemen 'inputCaptcha' berubah
     document.getElementById('inputCaptcha').addEventListener('change', function () {
-        console.log('inputChaptcha: change');
+        console.log('inputCaptcha: change');
         // Mendapatkan nilai input pada elemen 'inputCaptcha'
         const inputCaptcha = document.getElementById('inputCaptcha').value;
         // Mendapatkan status tombol submit
@@ -77,6 +77,16 @@ document.addEventListener('DOMContentLoaded', function () {
         }
         // Mencegah pengiriman formulir secara default
         event.preventDefault();
+    });
+
+    // Menambahkan event listener untuk menangani kejadian saat elemen 'inputCopy' menyalin teks
+    document.getElementById('inputCopy').addEventListener('copy', function () {
+        alert('Anda telah menyalin sesuatu...');
+    });
+    
+    // Menambahkan event listener untuk menangani kejadian saat elemen 'inputPaste' menempelkan teks
+    document.getElementById('inputPaste').addEventListener('paste', function () {
+        alert('Anda telah menempelkan sebuah teks...');
     });
 });
 
